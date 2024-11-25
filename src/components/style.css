@@ -1,0 +1,62 @@
+.card-estilo {
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+
+  
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .img-resized {
+    height: 150px; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+  
+
+  .card-estilo {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #333; 
+    cursor: default;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(250, 253, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+  .container {
+    background-image: url('./img/istockphoto-515373062-612x612.jpg'); 
+    background-position: top left; 
+    background-repeat: repeat; 
+    padding: 20px; 
+  }
