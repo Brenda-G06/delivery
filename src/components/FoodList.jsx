@@ -13,7 +13,7 @@ const FoodList = () => {
 
   return (
     <div className="container">
-      <h1>Comidas</h1>
+      <h1 className="title">Comidas</h1>
       <div className="row">
         {foods.map(food => (
           <div key={food.id} className="col-lg-4 col-md-6 col-12 mb-3">

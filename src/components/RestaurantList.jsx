@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./style.css"; // Importação do arquivo CSS
+import "./style.css"; 
 
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -33,7 +33,7 @@ const RestaurantList = () => {
                   <p className="card-text">{restaurant.description}</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">
+                  <li className="list-group-item listt">
                     <b>Avaliação:</b> {restaurant.rating}
                   </li>
                 </ul>
@@ -41,6 +41,11 @@ const RestaurantList = () => {
             </Link>
           </div>
         ))}
+      </div>
+      <div className="text-center mt-4">
+        <Link to="/comidas" className="btn-ver-comidas">
+          Ver Lista de Comidas
+        </Link>
       </div>
     </div>
   );
